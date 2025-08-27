@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+}
+#main{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 500px;
+}
+#main2{
+    background-color: rgb(112, 235, 81);
+}
+
+
+
+#box1 { 
+
+    background-color: rgb(230, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+}
+
+#box2 {
+    
+    background-color: rgb(39, 122, 218);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#box3 {
+  
+    background-color: rgb(43, 163, 27);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 10px;
+
+}
+

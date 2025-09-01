@@ -27,7 +27,6 @@ border: 8px solid #fff;
 box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
-    
 .nombre{
 font-size: clamp(2.2rem, 6vw, 3.2rem);
 line-height: 1.1;

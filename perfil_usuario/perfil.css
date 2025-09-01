@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cerrar-btn {
+  background-color: #00b8d4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+
+.columna-izq {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.perfil {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.foto {
+  width: 100%;
+  height: 120px;
+  background-color: #6EC1E4;
+  border-radius: 8px;
+  margin-bottom: -70px;
+}
+
+.contenedor-avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+  position: relative;
+  top: -60px;
+  left: 20px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nombre {
+  font-size: 24px;
+  margin: -40px 0 5px 0;
+}
+
+.ubicacion,
+.tag,
+.biografia {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.biografia {
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  color: #0073e6;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.educacion {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.educacion h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.derecha-barra {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.connection-section {
+  margin-bottom: 20px;
+}
+
+.connection-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.request-item,
+.connection-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.small-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nombre {
+  font-size: 14px;
+  color: #111;
+}
+
+.aceptar-btn,
+.rechazar-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aceptar-btn img,
+.rechazar-btn img {
+  width: 18px;
+  height: 18px;
+}

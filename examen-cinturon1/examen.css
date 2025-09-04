@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background-color: #93C47D;
+    align-items: center;
+    text-align: center;
+    flex: 0.3;
+    padding-top: 10px;
+}
+#main{
+    flex: 5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%  
+}
+.titulo-arbol{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    border-bottom: 2px solid black;
+
+}
+.titulo-arbol-1{
+    color: #009E0F;
+    margin-bottom: 10px;
+}
+.titulo-arbol-2{
+    color: #B6D7A8;
+    margin-bottom: 10px;
+}
+.titulo{
+    flex: 1;
+    display: flex;
+}
+#botones{
+    display: flex;
+    gap: 10px;
+
+}
+
+.btn-adoptar{
+    background-color: #B6D7A8;
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0.2rem 0.2rem 0rem black;
+}
+
+
+.btn-donar{
+    background-color: #6AA84F;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0.2rem 0.2rem 0rem black;
+}
+.tipo-arboles{
+    display: flex;
+    justify-content:space-between;
+    margin: 16px;
+
+}
+.tipoSeleccionado{
+    display: flex;
+}
+#arbol{
+    font-weight: bold;
+    border: 2px solid black;
+}
+#contenedor-arboles{
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn-adoptar-min{
+    background-color: #B6D7A8;
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0.2rem 0.2rem 0rem black;
+}
+
+
+.tipo-A{
+    background-color: #eeeeee;
+    width: 45%;
+    margin: 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    max-width: 400px;
+    min-width: 300px;
+
+}
+
+.tipo-A img{
+    width: 30%;
+    margin: 1rem;
+}
+.info-arbol{
+    flex: 1;
+    text-align: left;
+}
+.info-arbol h2{
+    padding-bottom: 5px;
+}
+.info-arbol p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: #93C47D;
+    flex: 1;
+    display: flex;
+}
+.titulo-footer{
+    color: white;
+    margin: 8px 0;
+}
+.footer-1{
+    flex: 2;
+    padding-left: 100px;
+
+}
+.footer-2{
+    flex: 2;
+
+}
+.footer-2 p {
+    margin: 16px 0;
+}
+.footer-3{
+    flex: 3;
+    align-items: end;
+
+}
+
+#btn-enviar{
+    background-color: #38761D;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0.2rem 0.2rem 0rem black;
+
+}
+

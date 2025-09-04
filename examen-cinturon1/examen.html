@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adopta Tu Arbol</title>
+        <link rel="stylesheet" href="examen.css">
+        <script src="examen.js" defer></script>
+    </head>
+    <body>
+        <header id="header"> 
+            <p>Tu plataforma favorita de adopción de árboles</p>
+        </header>
+        <div id="main">
+            <div class="titulo-arbol">
+                    <div class="titulo"> 
+                        <h1 class="titulo-arbol-1">
+                        Adopta
+                        </h1>
+                        <h1 class="titulo-arbol-2">
+                        TuÁrbol
+                        </h1>
+                    </div>
+                <div id="botones">
+                    <button class="btn-adoptar">Adoptar</button>
+                    <button class="btn-donar" onclick="donacion()">Donar</button>
+                </div>
+            </div>
+            <div class="tipo-arboles">
+                <div class="tipoSeleccionado">
+                <h2>Mostrando:</h2><h2 id="tipo"> Árboles Frutales</h2>
+                </div>
+                <div>
+                    <select id="arbol" name="arbol" onclick="tipoSeleccionado(this)">
+                        <option value="Todos los Arboles">Todos Los Arboles</option>
+                        <option value="Árboles Frutales">Árboles Frutales</option>
+                        <option value="Árboles de Flores">Árboles de Flores</option>
+                        <option value="Árboles Ornamentales">Árboles Ornamentales</option>
+                    </select>
+                </div>
+            </div>
+            <div id="contenedor-arboles">
+                <div class="tipo-A">
+                    <img src="img/alamo.jpg" alt="Alamo" >
+                    <div class="info-arbol">
+                        <h2>Álamo</h2>
+                        <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+                    </div>  
+                    <button class="btn-adoptar-min" onclick="adoptado(this)">Adoptar</button>
+                </div>
+                <div class="tipo-A">
+                    <img src="img/fresno.jpg" alt="Fresno" >
+                    <div class="info-arbol">
+                        <h2>Fresno</h2>
+                        <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    </div>
+                    <button class="btn-adoptar-min" onclick="adoptado(this)">Adoptar</button>
+                </div>
+                <div class="tipo-A">
+                    <img src="img/pino.jpg" alt="Pino" >
+                    <div class="info-arbol">
+                        <h2>Pino</h2>
+                        <p>Árbol de la familia de las abitáceas, de tronco elevado, recto.</p>    
+                    </div>
+                    <button class="btn-adoptar-min" onclick="adoptado(this)">Adoptar</button>                    
+                </div>
+                <div class="tipo-A">
+                    <img src="img/jacaranda.jpg" alt="Jaracanda" >
+                    <div class="info-arbol">
+                        <h2>Jaracanda</h2>
+                        <p>Árbol de copa extendida y redondeada con flores.</p>
+                    </div>
+                    <button class="btn-adoptar-min" onclick="adoptado(this)">Adoptar</button>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="footer-1">
+                <h2 class="titulo-footer">Contáctanos</h2>
+                <p>Av. Principal #123</p>
+                <p>Cuidad Palma, 10000</p>
+                <p>Chile</p>
+
+            </div>
+            <div class="footer-2">
+                <p>Inicio</p>
+                <p>Sobre Nosotros</p>
+                <p>Adopta un Árbol</p>
+
+            </div>
+            <div class="footer-2">
+                <p>Contacto</p>
+                <p>Patrocinadores</p>
+                <p>Proyecto</p>
+
+            </div>
+            <div class=" footer-3">
+                <h2 class="titulo-footer">Suscríbete</h2>
+            <div class="suscripcion">
+            <input type="email" placeholder="usuario@correo.com" required>
+            <button id="btn-enviar">enviar</button>
+            </div>
+            </div>
+
+        </footer>
+    </body>
+</html>

@@ -42,7 +42,7 @@ Me gusta construir cosas visuales y funcionales, y seguir mejorando con cada ent
 
 ## 👋 Sobre mí
 
-Soy **Alan Emanuel Santillán**, estudiante de **Licenciatura en Programación Informática (UNQ)**.  
+Soy **Alan Emanuel Santillán**, estudiante de **Tecnicatura Universitaria en Programación Informática (UTN)**.  
 Me interesa especialmente el desarrollo web y el diseño de interfaces simples, limpias y funcionales.  
 Estoy en constante aprendizaje y me gusta compartir lo que voy haciendo.
 

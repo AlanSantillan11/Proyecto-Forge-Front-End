@@ -1,0 +1,41 @@
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formulario{
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.registro{
+    height: calc(100vh - 72px);
+    display: flex;
+    overflow: hidden;
+    margin-top: -1rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnSiguiente{
+    background-color: #00953C !important;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.8rem ;
+}
+.btnAtras{
+    background-color: transparent !important;
+    color: #00953C !important;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.8rem ;
+}

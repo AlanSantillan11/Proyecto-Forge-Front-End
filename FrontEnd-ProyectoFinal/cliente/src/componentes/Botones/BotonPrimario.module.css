@@ -1,0 +1,22 @@
+.btnPrimario {
+  background-color: #1A67FE !important; 
+  color: #ffffff; 
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500 !important;
+  width: 100%;
+  justify-content: center;
+               
+}
+
+
+.btnPrimario:hover {
+  background-color: #2C73FE !important;
+  color: #ffffff;
+}
+
+.btnPrimario:focus {
+  background-color: #3176FE !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,50 @@
+.ubicacion{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    gap: 0.2rem;
+}
+.ubicacionTexto{
+    color: #424655;
+    font-size: 0.9rem !important ;
+    margin: 0;
+    padding: 0;
+}
+
+.ubicacionTextoGrande{
+    color: #191B24;
+    font-size: 1.3rem !important ;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades{
+    background-color: #E1E2EE;
+    color: #191B24;
+    font-weight: 500;
+    font-size: 0.9rem !important;
+
+}
+
+.descripcion{
+    color: #424655;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;      
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.img{
+    height: 13.5rem;
+    object-fit: cover;
+
+}
+
+.card{
+    height: 38.5rem;
+}

@@ -1,0 +1,23 @@
+.btnSecundario {
+  background-color: transparent  !important; 
+  color: #ffffff !important; 
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500 !important;
+  width: 100%;
+  justify-content: center;
+  border: 2px solid #ffffff !important;
+               
+}
+
+
+.btnSecundario:hover {
+  background-color: transparent  !important;
+  color: #ffffff;
+}
+
+.btnSecundario:focus {
+  background-color: transparent  !important;
+  color: #ffffff !important;
+}
